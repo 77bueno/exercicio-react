@@ -10,6 +10,8 @@ function Cabecalho() {
 }
 
 
-const StyledCabecalho = styled.header``;
+const StyledCabecalho = styled.header`
+    background-color: #000000;
+`;
 
 export default Cabecalho;

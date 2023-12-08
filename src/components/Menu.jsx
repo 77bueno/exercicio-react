@@ -14,6 +14,23 @@ const StyledMenu = styled.nav`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    a {
+    color: #ffffff;
+    text-decoration: none;
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 100ms;
+
+    &:hover {
+      background-color: #121212;
+      color: #e2e2e2;
+      transform: scale(1.05);
+    }
+  }
 `;
 
 

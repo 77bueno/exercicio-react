@@ -1,13 +1,9 @@
 import styled from "styled-components";
-import RapBrasileiro from "../pages/Home";
-import Racionais from "../pages/Racionais";
-import Rzo from "../pages/Rzo";
 
-function Conteudo() {
+function Conteudo({children}) {
     return (
         <StyledConteudo>  
-            <h2>Exerício Usando React</h2>
-            <RapBrasileiro />
+            {children}
         </StyledConteudo>
 
     )
